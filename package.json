@@ -1,0 +1,24 @@
+{
+  "name": "selenium-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "tests": "mocha ./test/*.spec.js --no-timeouts -R allure-mocha -O 'resultsDir=allure-results' ",
+    "test1": "mocha --grep \"Imprima los diferentes textos de los iframes\" --no-timeouts -R allure-mocha -O resultsDir=allure-results",
+    "test2": "mocha --grep \"Imprimir texto de nueva pestana\" --no-timeouts -R allure-mocha -O resultsDir=allure-results",
+    "parallel": "mocha --parallel --no-timeouts -R allure-mocha -O resultsDir=allure-results",
+    "server-allure": "npx allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "allure-commandline": "^2.34.0",
+    "mocha": "^11.4.0",
+    "selenium-webdriver": "^4.32.0"
+  },
+  "devDependencies": {
+    "allure-mocha": "^3.2.2"
+  }
+}
