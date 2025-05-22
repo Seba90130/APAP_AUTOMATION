@@ -36,7 +36,8 @@ Esto instalará:
 
 📁 Estructura del Proyecto
 
-selenium-automation/
+APAP_AUTOMATION/
+
 ├── helpers/               # Funciones auxiliares (switch de iframe, setup driver)
 
 │   ├── driver.js
