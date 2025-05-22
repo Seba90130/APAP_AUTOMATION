@@ -1,3 +1,7 @@
+#Test Suite y Casos de Prueba
+
+https://coda.io/d/Prueba-tecnica-APAP_d00G5Yl2fZP
+
 # 🚀 Selenium Automation Project
 
 Este proyecto contiene pruebas automatizadas con **Selenium WebDriver** usando **JavaScript (ESModules)**, **Mocha** como framework de testing, y **Allure** para la generación de reportes detallados.  
