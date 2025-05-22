@@ -23,6 +23,7 @@ Ideal para proyectos E2E, validaciones de UI y ejecución de pruebas en distinto
 bash:
 
 git clone https://github.com/Seba90130/APAP_AUTOMATION.git
+
 cd APAP_AUTOMATION
 
 npm install
