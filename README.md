@@ -63,12 +63,13 @@ APAP_AUTOMATION/
 🧪 Scripts de Pruebas:
 En package.json tienes definidos los siguientes scripts:
 
-Scripts	Descripción
-npm run tests	Ejecuta todos los tests del directorio /test.
-npm run test1	Ejecuta el test que imprime los textos de los iframes.
-npm run test2	Ejecuta el test que imprime el texto de la nueva pestaña.
-npm run parallel	Ejecuta todos los tests en paralelo con Mocha.
-npm run server-allure	Abre el reporte generado con Allure.
+Scripts	Descripción:
+
+- npm run tests	Ejecuta todos los tests del directorio /test.
+- npm run test1	Ejecuta el test que imprime los textos de los iframes.
+- npm run test2	Ejecuta el test que imprime el texto de la nueva pestaña.
+- npm run parallel	Ejecuta todos los tests en paralelo con Mocha.
+- npm run server-allure	Abre el reporte generado con Allure.
 
 
 
